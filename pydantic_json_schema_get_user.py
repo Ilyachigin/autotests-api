@@ -6,6 +6,7 @@ from clients.users.public_users_client import get_public_users_client
 from clients.users.private_users_client import get_private_users_client
 from clients.users.users_schema import CreateUserRequestSchema, GetUserResponseSchema
 from tools.fakers import get_random_email, get_random_string
+from tools.assertions.schema import validate_json_schema
 
 
 public_users_client = get_public_users_client()
@@ -14,9 +15,9 @@ public_users_client = get_public_users_client()
 create_user_request = CreateUserRequestSchema(
     email=get_random_email(),
     password=get_random_string(),
-    lastName=get_random_string(),
-    firstName=get_random_string(),
-    middleName=get_random_string()
+    last_name=get_random_string(),
+    first_name=get_random_string(),
+    middle_name=get_random_string()
 )
 create_user_response = public_users_client.create_user(create_user_request)
 print(f"Пользователь создан: {create_user_response}")
@@ -33,8 +34,4 @@ get_user_response = private_users_client.get_user_api(create_user_response.user.
 get_user_response_schema = GetUserResponseSchema.model_json_schema()
 
 # Валидация схемы получения данных юзера
-validate(
-    schema=get_user_response.json(),
-    instance=get_user_response_schema,
-    format_checker=Draft202012Validator.FORMAT_CHECKER,
-)
+validate_json_schema(instance=get_user_response.json(), schema=get_user_response_schema)

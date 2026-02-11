@@ -41,8 +41,8 @@ class CreateCourseRequestSchema(BaseCourseModel):
     Описание структуры запроса на создание курса.
     """
     title: str
-    maxScore: int = Field(alias="maxScore")
-    minScore: int = Field(alias="minScore")
+    max_score: int = Field(alias="maxScore")
+    min_score: int = Field(alias="minScore")
     description: str
     estimated_time: str = Field(alias="estimatedTime")
     preview_file_id: str = Field(alias="previewFileId")
