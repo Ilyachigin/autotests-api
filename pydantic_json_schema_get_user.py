@@ -1,24 +1,14 @@
-from jsonschema import validate
-from jsonschema.validators import Draft202012Validator
-
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client
 from clients.users.private_users_client import get_private_users_client
 from clients.users.users_schema import CreateUserRequestSchema, GetUserResponseSchema
-from tools.fakers import get_random_email, get_random_string
 from tools.assertions.schema import validate_json_schema
 
 
 public_users_client = get_public_users_client()
 
 # Создание пользователя
-create_user_request = CreateUserRequestSchema(
-    email=get_random_email(),
-    password=get_random_string(),
-    last_name=get_random_string(),
-    first_name=get_random_string(),
-    middle_name=get_random_string()
-)
+create_user_request = CreateUserRequestSchema()
 create_user_response = public_users_client.create_user(create_user_request)
 print(f"Пользователь создан: {create_user_response}")
 

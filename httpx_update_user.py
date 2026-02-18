@@ -11,7 +11,7 @@ class UserClient:
             base_url="http://localhost:8000/api/v1",
             headers={"Content-Type": "application/json"}
         )
-        self.fake_email = fakers.get_random_email()
+        self.fake_email = fakers.fake.email()
         self.fake_string = fakers.get_random_string()
 
     def create_user(self) -> str:
@@ -30,7 +30,7 @@ class UserClient:
 
     def update_user(self, user_id: str, access_token: str) -> Response:
         payload = {
-            "email": fakers.get_random_email(),
+            "email": fakers.fake.email(),
             "lastName": fakers.get_random_string(),
             "firstName": fakers.get_random_string(),
             "middleName": fakers.get_random_string()
