@@ -1,6 +1,7 @@
 from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
-    GetExercisesResponseSchema, ExerciseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
+    GetExercisesResponseSchema, ExerciseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema, \
+    GetExerciseResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.errors import assert_internal_error_response
 
@@ -84,7 +85,21 @@ def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     :param actual: Фактический ответ.
     :raises AssertionError: Если фактический ответ не соответствует ошибке "Exercise not found"
     """
-    # Ожидаемое сообщение об ошибке, если файл не найден
     expected = InternalErrorResponseSchema(details="Exercise not found")
     assert_internal_error_response(actual, expected)
+
+
+def assert_get_exercise_response(
+        get_exercise_response: GetExerciseResponseSchema,
+        create_exercise_responses: CreateExerciseResponseSchema
+):
+    """
+     Проверяет, что ответ на получение задания соответствует ответу на его создание.
+
+    :param get_exercise_response: Фактический ответ.
+    :param create_exercise_responses: API ответ при создании задания.
+    :raises AssertionError: Если данные задания не совпадают.
+    """
+    assert_exercise(get_exercise_response.exercise, create_exercise_responses.exercise)
+
 
