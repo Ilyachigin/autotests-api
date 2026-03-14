@@ -22,7 +22,7 @@ def assert_create_exercise_response(request: CreateExerciseRequestSchema, respon
     assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
 
 
-def assert_get_exercise_response(
+def assert_get_exercises_response(
         get_exercises_response: GetExercisesResponseSchema,
         create_exercise_responses: list[CreateExerciseResponseSchema]
 ):
