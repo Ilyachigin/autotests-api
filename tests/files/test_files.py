@@ -5,9 +5,10 @@ import pytest
 from clients.errors_schema import ValidationErrorResponseSchema
 from clients.files.files_client import FilesClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
+from fixtures.files import FileFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.files import assert_create_file_response, assert_create_file_with_empty_filename_response, \
-    assert_create_file_with_empty_directory_response
+    assert_create_file_with_empty_directory_response, assert_get_file_with_incorrect_file_id_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -15,18 +16,15 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.regression
 class TestFiles:
 
-    @pytest.mark.files
-    @pytest.mark.regression
-    class TestFiles:
-        def test_create_file(self, files_client: FilesClient):
-            request = CreateFileRequestSchema(upload_file="./testdata/files/image.png")
-            response = files_client.create_file_api(request)
-            response_data = CreateFileResponseSchema.model_validate_json(response.text)
+    def test_create_file(self, files_client: FilesClient):
+        request = CreateFileRequestSchema(upload_file="./testdata/files/image.png")
+        response = files_client.create_file_api(request)
+        response_data = CreateFileResponseSchema.model_validate_json(response.text)
 
-            assert_status_code(response.status_code, HTTPStatus.OK)
-            assert_create_file_response(request, response_data)
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_create_file_response(request, response_data)
 
-            validate_json_schema(response.json(), response_data.model_json_schema())
+        validate_json_schema(response.json(), response_data.model_json_schema())
 
     def test_create_file_with_empty_filename(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
@@ -53,3 +51,15 @@ class TestFiles:
         assert_create_file_with_empty_directory_response(response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+    def test_get_file_with_incorrect_file_id(self, files_client: FilesClient, function_file: FileFixture):
+        file_id = "incorrect-file-id"
+
+        response = files_client.get_file_api(file_id)
+        response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_get_file_with_incorrect_file_id_response(response_data)
+
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
