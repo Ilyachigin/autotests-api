@@ -7,3 +7,4 @@ jsonschema-specifications==2025.9.1
 pydantic==2.12.5
 pydantic-settings==2.13.1
 pytest==9.0.2
+pytest-xdist==3.8.0
