@@ -12,6 +12,7 @@ from clients.exercises.exercises_schema import (
     CreateExerciseResponseSchema,
     UpdateExerciseResponseSchema
 )
+from tools.routes import APIRoutes
 
 
 class ExercisesClient(APIClient):
@@ -28,7 +29,7 @@ class ExercisesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.get(
-            "/api/v1/exercises",
+            APIRoutes.EXERCISES,
             params=query.model_dump(by_alias=True)
         )
 
@@ -40,7 +41,7 @@ class ExercisesClient(APIClient):
         :param exercise_id: Идентификатор задания.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f"/api/v1/exercises/{exercise_id}")
+        return self.get(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
     @allure.step("Create exercise")
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
@@ -52,7 +53,7 @@ class ExercisesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post(
-            "/api/v1/exercises",
+            APIRoutes.EXERCISES,
             json=request.model_dump(by_alias=True)
         )
 
@@ -67,7 +68,7 @@ class ExercisesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.patch(
-            f"/api/v1/exercises/{exercise_id}",
+            f"{APIRoutes.EXERCISES}/{exercise_id}",
             json=request.model_dump(by_alias=True)
         )
 
@@ -79,7 +80,7 @@ class ExercisesClient(APIClient):
         :param exercise_id: Идентификатор задания.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(f"/api/v1/exercises/{exercise_id}")
+        return self.delete(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
 
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
