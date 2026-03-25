@@ -15,5 +15,3 @@ allure-report/
 # Meta
 .DS_Store
 
-# Envs
-.env
