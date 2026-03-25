@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDE3OjQwOjM5Ljg5NTE4NyIsInVzZXJfaWQiOiIxNjU4MDg0Zi1mYmVkLTQ1MmUtYThhNC0yZjhkMTRhNTVmZDEifQ.59m4t8D79ZZeW9LHCWUhV9sd0xeu_ugXoobEdHjDKJs' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serve particularly professor day.","maxScore":74,"minScore":30,"description":"Nature throw left manager meeting. Rich million owner.\nA cover exist campaign. Cover side stuff. Pay eat statement other say which wind join.\nServe where continue hit study born. Goal draw future.","estimatedTime":"6 weeks","previewFileId":"4923077c-dccd-450c-9066-946b3cb359d4","createdByUserId":"1658084f-fbed-452e-a8a4-2f8d14a55fd1"}'

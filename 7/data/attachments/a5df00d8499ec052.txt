@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDE3OjQwOjQxLjA3NTE4MyIsInVzZXJfaWQiOiI4MjlmZjFmZS1mMTJkLTQwMTUtYTc5Ny1mYmUxM2NlMTMyNGEifQ.7_kKodyg-MHrBBv0foONFD5SBefcDEXOX_i9g_8qiOI' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enjoy pick close response ago agreement.","maxScore":54,"minScore":28,"description":"Agree admit expect truth. Hundred whole another according kid certain lawyer.\nDark oil memory return another degree office face. Year film arm interest suffer.","estimatedTime":"1 weeks","previewFileId":"de874226-841c-451f-9180-96ef39283f52","createdByUserId":"829ff1fe-f12d-4015-a797-fbe13ce1324a"}'

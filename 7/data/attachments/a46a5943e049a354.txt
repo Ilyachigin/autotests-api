@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDE3OjQwOjQxLjA3NTE4MyIsInVzZXJfaWQiOiI4MjlmZjFmZS1mMTJkLTQwMTUtYTc5Ny1mYmUxM2NlMTMyNGEifQ.7_kKodyg-MHrBBv0foONFD5SBefcDEXOX_i9g_8qiOI' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Water no member financial charge able.","courseId":"da018147-e7b6-4824-8a39-e50343a01352","maxScore":86,"minScore":16,"orderIndex":63,"description":"Four item describe investment easy. Protect interest can sea these kid thousand politics. According fall in skill. Allow visit politics consumer very short security.","estimatedTime":"8 weeks"}'

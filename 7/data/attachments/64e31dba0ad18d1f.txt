@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDE3OjQwOjQyLjI5NzQ0MCIsInVzZXJfaWQiOiIxMGM3MGRkZi03MWJkLTQ1MTMtYjUzOS1kNDI3YzY5MmMzMWEifQ.Obq14zC2fPvWgVNzQzKCramwZFIzC9IIXL07T5o74U0' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interview culture sure which explain century.","maxScore":73,"minScore":29,"description":"Could charge interest successful century for city. Within notice start center yeah. Phone evidence president piece morning financial world.","estimatedTime":"1 weeks","previewFileId":"b6f6c628-fde2-4b0b-a379-6954eec48113","createdByUserId":"10c70ddf-71bd-4513-b539-d427c692c31a"}'

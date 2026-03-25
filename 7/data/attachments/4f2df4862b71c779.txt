@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDE3OjQwOjQxLjcxMjM2OCIsInVzZXJfaWQiOiJlN2MxMjZmMi1kMzUyLTRjMjQtOGNlZi02Y2M0NTY4NWI0ZTMifQ.ZgRQrxrSb8278cJdtZXNTGcFYKc636-CO_lrL-GbBxo' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"News religious be thousand get couple.","maxScore":89,"minScore":13,"description":"Attention face former floor player fund child. Marriage event per each. Third great take loss sell.\nWhom short remain. Child area stuff memory.","estimatedTime":"2 weeks","previewFileId":"b269e989-6b36-4ce1-8f3d-ff25770d10bc","createdByUserId":"e7c126f2-d352-4c24-8cef-6cc45685b4e3"}'

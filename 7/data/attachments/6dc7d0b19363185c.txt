@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDE3OjQwOjQxLjcxMjM2OCIsInVzZXJfaWQiOiJlN2MxMjZmMi1kMzUyLTRjMjQtOGNlZi02Y2M0NTY4NWI0ZTMifQ.ZgRQrxrSb8278cJdtZXNTGcFYKc636-CO_lrL-GbBxo' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest moment sure interest race.","courseId":"2a1957ae-09d9-4c16-9480-dc606e6cdfb2","maxScore":75,"minScore":25,"orderIndex":61,"description":"Let kid few that reveal expect claim. Industry indeed response own general activity just.\nRadio everyone PM your onto. Cup pretty none develop board half.","estimatedTime":"7 weeks"}'

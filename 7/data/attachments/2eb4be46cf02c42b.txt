@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDE3OjQwOjM5LjMxNDU0NSIsInVzZXJfaWQiOiJiNDExNjIwNC1hMjNhLTQzOTUtOTFlMy1jMWUyMTRmZTcyOWYifQ.6r_4Ea5n_mlZ2YO6IeT_8Eg4eXnvxFJ7uyPELAkc2W8' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discover star heavy project he picture he toward.","maxScore":54,"minScore":13,"description":"Middle now fish few tell science argue recently. Skin ten father guess population.\nItself international free truth idea agreement. Leg turn worry leader produce knowledge.","estimatedTime":"5 weeks","previewFileId":"dfc9eeeb-70c8-45d0-9c5c-b26cf55137ef","createdByUserId":"b4116204-a23a-4395-91e3-c1e214fe729f"}'

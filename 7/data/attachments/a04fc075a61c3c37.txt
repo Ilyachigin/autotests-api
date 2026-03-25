@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3ceb65dd-b438-437e-9685-38005d5bf2be' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDE3OjQwOjM3LjgyNjM0OCIsInVzZXJfaWQiOiIzZDU4YjRmYy1mZDBjLTQwZTctOTcxMi04YzJmZDA1NjE1NWQifQ.17I2-RZW3iAkYUhFBD0wRNEs1d9gbtqorzoIN95IBvk' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cold paper how door high movie born.","maxScore":67,"minScore":23,"description":"Itself deep south. Future hour be study laugh.\nStrategy probably fill protect budget human season. Significant pressure that history myself determine direction.","estimatedTime":"6 weeks"}'
