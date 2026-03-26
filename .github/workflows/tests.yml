@@ -59,6 +59,12 @@ jobs:
     if: always()
 
     steps:
+      - name: Download Allure results
+        uses: actions/download-artifact@v7
+        with:
+          name: allure-results
+          path: allure-results
+
       - name: Get Allure history
         uses: actions/checkout@v6
         if: always()
