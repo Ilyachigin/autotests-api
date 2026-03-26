@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjIzOjE3LjY1MjAyMyIsInVzZXJfaWQiOiJjYmM2NTI3Yi05YWViLTQ4YTEtODVhMy0yODY0ODA3Y2JjNGUifQ.gzuY-wiGb5otSMud2p-iB3OR9o3DK02cxxYjVBSHKWM' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Night artist event opportunity prepare close.","maxScore":75,"minScore":6,"description":"Bad throw next might. See star nation nothing student wonder bag. Record receive trial shoulder participant.","estimatedTime":"3 weeks","previewFileId":"c22dce2b-10b8-46f8-b750-d0db20d3924d","createdByUserId":"cbc6527b-9aeb-48a1-85a3-2864807cbc4e"}'

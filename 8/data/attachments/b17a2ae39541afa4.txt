@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjIzOjE2LjQ3NzY4OSIsInVzZXJfaWQiOiIxYzMwNGU4Yy0xNmFkLTRlY2QtOTU0Mi1iODY3YzY4ZjU2ZDcifQ.4Z8i7u2HuajLJhidJAA1GDyUGpZeiEVyUeSM7GA1Olo' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nothing least material these.","maxScore":80,"minScore":14,"description":"Game city cover stuff player. Want fire detail couple. Us billion something play partner war third reflect.\nDark mind mean. Wear foot before sound. Public clear soldier school enter source feel.","estimatedTime":"7 weeks","previewFileId":"cdc19e44-b5ac-4946-9eac-501136778018","createdByUserId":"1c304e8c-16ad-4ecd-9542-b867c68f56d7"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjIzOjE4LjgzMjA3NSIsInVzZXJfaWQiOiI4MTU4MzAzNC0yOGNlLTQ5M2MtOTE0ZS1hZGEyNzgzMjdhMzQifQ.gLFvNTEnNUfY2SIZ8emZVRRPCL3UGv16RU9GTFHwNt8' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary player range yard often with know.","courseId":"363afeff-e984-4954-b0fd-c82b4a9fb521","maxScore":58,"minScore":23,"orderIndex":19,"description":"From early practice worry employee trip. Long military animal theory save list.\nStation other source son impact themselves his. Audience more including it special seat. Policy once team structure.","estimatedTime":"1 weeks"}'
