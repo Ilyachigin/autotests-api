@@ -1,12 +1,11 @@
 stages:
   - test
+  - test-report
   - deploy
 
 run-tests:
   stage: test
-
   image: ubuntu:24.04
-
   allow_failure: true
 
   variables:
@@ -19,10 +18,7 @@ run-tests:
 
   before_script:
     - apt-get update
-    - apt-get install -y python3.12 python3.12-venv python3-pip openjdk-11-jre wget tar git
-
-    - wget https://github.com/allure-framework/allure2/releases/download/2.38.0/allure-2.38.0.tgz
-    - tar -xvf allure-2.38.0.tgz
+    - apt-get install -y python3.12 python3.12-venv python3-pip git
 
     - python3.12 -m venv venv
     - source venv/bin/activate
@@ -39,18 +35,40 @@ run-tests:
 
     - pytest -m regression --alluredir=allure-results --numprocesses 2
 
-    - allure-2.38.0/bin/allure generate allure-results -o allure-report --clean
-
-
   artifacts:
     paths:
       - allure-results/
-      - allure-report/
     expire_in: 7 days
     when: always
 
   rules:
     - if: '$CI_COMMIT_BRANCH == "main"'
+
+publish-report:
+    stage: test-report
+    image: ubuntu:24.04
+    allow_failure: true
+
+    before_script:
+      - apt-get update
+      - apt-get install -y openjdk-11-jre wget tar
+
+      - wget https://github.com/allure-framework/allure2/releases/download/2.38.0/allure-2.38.0.tgz
+      - tar -xvf allure-2.38.0.tgz
+
+    script:
+      - allure-2.38.0/bin/allure generate allure-results -o allure-report --clean
+
+    needs: [ "run-tests" ]
+
+    artifacts:
+      paths:
+        - allure-report/
+      expire_in: 7 days
+      when: always
+
+    rules:
+      - if: '$CI_COMMIT_BRANCH == "main"'
 
 pages:
   stage: deploy
@@ -63,7 +81,7 @@ pages:
     paths:
       - public
 
-  needs: [ "run-tests" ]
+  needs: [ "publish-report" ]
 
   rules:
     - if: '$CI_COMMIT_BRANCH == "main"'
