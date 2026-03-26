@@ -19,7 +19,7 @@ run-tests:
 
   before_script:
     - apt-get update
-    - apt-get install -y python3.13 python3.13-venv python3-pip openjdk-11-jre wget tar git
+    - apt-get install -y python3.12 python3.12-venv python3-pip openjdk-11-jre wget tar git
 
     - wget https://github.com/allure-framework/allure2/releases/download/2.38.0/allure-2.38.0.tgz
     - tar -xvf allure-2.38.0.tgz
