@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjIzOjE3LjA2NzE3MyIsInVzZXJfaWQiOiI3ZTBlZGIyNS00NTNkLTQzNjgtOGI0Yi1mZGFkOWU3NWU0OTQifQ.6xm_3iUwQymSpz6ZMR05xoJTALGHzlsUMdEZcKmwIEA' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Loss month star either.","maxScore":99,"minScore":1,"description":"By seven year specific wrong defense serve. Instead where change southern through prevent. Edge more water.","estimatedTime":"6 weeks","previewFileId":"71ee427a-e9bc-4786-b633-51a450acf643","createdByUserId":"7e0edb25-453d-4368-8b4b-fdad9e75e494"}'

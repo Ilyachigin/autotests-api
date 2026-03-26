@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Loss month star either.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 99
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to By seven year specific wrong defense serve. Instead where change southern through prevent. Edge more water.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file" equals to 71ee427a-e9bc-4786-b633-51a450acf643
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user" equals to 7e0edb25-453d-4368-8b4b-fdad9e75e494
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

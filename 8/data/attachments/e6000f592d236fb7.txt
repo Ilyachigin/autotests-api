@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ed653306-0f87-4ec6-8829-1287cdac11fa' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjIzOjE1LjU3NjIyNyIsInVzZXJfaWQiOiJlNjU3ZjM0Zi1hOWQ2LTQ3NGQtODczZi1hZjNhYTE1NWE2NzEifQ.6FTx4V1AVRyyCg0JH7IPWZb6pIBLdQXJZITX5LepYY0' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Item player road own born none doctor.","maxScore":82,"minScore":16,"description":"Food gas upon wait employee. Laugh win happy trial party yeah.\nAttack which practice realize hair recently skin. No man several city whom speak. Half science anyone history.","estimatedTime":"9 weeks"}'

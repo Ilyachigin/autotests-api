@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjIzOjE1LjU3NjIyNyIsInVzZXJfaWQiOiJlNjU3ZjM0Zi1hOWQ2LTQ3NGQtODczZi1hZjNhYTE1NWE2NzEifQ.6FTx4V1AVRyyCg0JH7IPWZb6pIBLdQXJZITX5LepYY0' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe evidence raise eat speech.","maxScore":50,"minScore":2,"description":"Scientist want win on network light. Daughter stay official health whom film. Somebody consider structure hear.","estimatedTime":"10 weeks","previewFileId":"3a65b98c-60e7-431d-b028-79d17be0897a","createdByUserId":"e657f34f-a9d6-474d-873f-af3aa155a671"}'

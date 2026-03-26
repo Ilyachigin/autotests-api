@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjIzOjE4LjgzMjA3NSIsInVzZXJfaWQiOiI4MTU4MzAzNC0yOGNlLTQ5M2MtOTE0ZS1hZGEyNzgzMjdhMzQifQ.gLFvNTEnNUfY2SIZ8emZVRRPCL3UGv16RU9GTFHwNt8' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Will positive cause consumer pattern thus.","maxScore":86,"minScore":10,"description":"This stay today condition. View report on themselves. Card management something production style.","estimatedTime":"9 weeks","previewFileId":"ce4e9e6b-fd44-4cd5-9bd6-699f8bce34e4","createdByUserId":"81583034-28ce-493c-914e-ada278327a34"}'
