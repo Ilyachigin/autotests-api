@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjM0OjM5LjU4MDk2MiIsInVzZXJfaWQiOiI2YmFkYzA1MC02NDZkLTRmNDktYmEzZC1mNTFkM2IzMmU4MDEifQ.rNxaFHe-JJBZBy7H30wnFI72M-8omLY1ch59TZcfWS8' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throw ready large newspaper item wonder.","maxScore":100,"minScore":2,"description":"Exist worry art season movement. Back likely father admit. Ability determine same read of.\nTown contain small thousand have. Certain book rise upon. Enjoy sport itself tree school expect.","estimatedTime":"9 weeks","previewFileId":"8d0b4eed-58ef-40be-ab2c-2f84243fd334","createdByUserId":"6badc050-646d-4f49-ba3d-f51d3b32e801"}'

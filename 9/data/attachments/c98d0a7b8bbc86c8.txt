@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjM0OjQwLjY4MDM2NSIsInVzZXJfaWQiOiIyM2ExOTgxZS03OGI0LTRjNjktOThlMC0yYWYxYzdhZTc2MGEifQ.bpGMrSWAMYIFoxjPIzFAPgk3wv4LSwFRpjU7rfFLgF8' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Find man can determine effect audience rock.","maxScore":56,"minScore":26,"description":"Throughout reality each enjoy manage sense. Girl rock card four physical factor. Exist decade try more.","estimatedTime":"8 weeks","previewFileId":"f4c4b85f-8874-48cd-9143-10f155af0a85","createdByUserId":"23a1981e-78b4-4c69-98e0-2af1c7ae760a"}'

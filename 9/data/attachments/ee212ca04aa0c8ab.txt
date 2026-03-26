@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjM0OjM5LjAyNzYwMiIsInVzZXJfaWQiOiI4MjZlNzdiYS1jNzgxLTRlMWYtOWRmOC1hOTc2YzI0MGIwYjYifQ.mt3Mg4oFGPP1zqFT8_MxYLd_nz4SY9AiayfVFvrbHUo' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Step finally year newspaper return service.","maxScore":92,"minScore":6,"description":"Child rich need himself. Size soldier gas defense start director. Usually near certain capital ever your.","estimatedTime":"6 weeks","previewFileId":"a7dc28ff-a736-40ed-b943-18e3967f8699","createdByUserId":"826e77ba-c781-4e1f-9df8-a976c240b0b6"}'

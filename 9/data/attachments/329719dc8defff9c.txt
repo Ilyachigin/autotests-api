@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjM0OjM4LjQ3NzM5MyIsInVzZXJfaWQiOiI2OTFmZTBlZS0wMTg3LTQyYzgtYjk1OC04NjU1ZWYxMmUxM2EifQ.4aE3GBdTvBmo_Cec2VKFcudaMpdTv4bJ2QEjb4Nyr50' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Alone operation movie find.","maxScore":100,"minScore":9,"description":"Together car group structure operation. New bring all friend four parent.\nDetermine within plan study positive country attention. Cost work side everyone.","estimatedTime":"8 weeks","previewFileId":"93d813d4-d812-4a6c-bc4d-d41f84d632e2","createdByUserId":"691fe0ee-0187-42c8-b958-8655ef12e13a"}'

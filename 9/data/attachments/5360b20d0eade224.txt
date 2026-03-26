@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjM0OjQxLjg0MzAzNyIsInVzZXJfaWQiOiI5OWJhNGM5NC0zMmNhLTRlYjUtODA3OS1jMDE4MzBhZWRhMGEifQ.a-DjrMoGR6wEMyJGnfXAawvWUlzq5y0CscAjhBAQrJI' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agreement base let huge.","courseId":"c1d42fa2-cdf8-45d1-b759-69f966414348","maxScore":54,"minScore":8,"orderIndex":99,"description":"Democratic list room reach skin notice. Nature exactly piece do society compare create. Sign watch same nearly.","estimatedTime":"7 weeks"}'

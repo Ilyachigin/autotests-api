@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjM0OjQwLjEzMDg3NSIsInVzZXJfaWQiOiJkY2FjZmFjYy05YmNlLTQ5YmYtOTM2Yy02MWVjMjBmMjZlNjYifQ.QOrrx2crVk685Q6afjIlbKc0k7Y7jGILpOhKsSlLfXs' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Our collection bring brother black.","maxScore":97,"minScore":7,"description":"Me great travel commercial wear region interview. Issue coach government understand former. Purpose chair feeling look fall church understand. Several increase fact yard medical.","estimatedTime":"8 weeks","previewFileId":"6a618b38-22ee-4f3c-b124-09e109fe72db","createdByUserId":"dcacfacc-9bce-49bf-936c-61ec20f26e66"}'

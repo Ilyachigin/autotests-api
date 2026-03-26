@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Step finally year newspaper return service.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Child rich need himself. Size soldier gas defense start director. Usually near certain capital ever your.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file" equals to a7dc28ff-a736-40ed-b943-18e3967f8699
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user" equals to 826e77ba-c781-4e1f-9df8-a976c240b0b6
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

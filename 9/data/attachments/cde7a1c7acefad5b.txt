@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjM0OjM3Ljg4ODUzNSIsInVzZXJfaWQiOiJhOTZiMzIyZC1hYThkLTQ0NzItODA2My1jNjMwYjIyNGM0NjYifQ.bJKZ8A5oxWAzTq6RUVBSm0Ljz55sGYFus6dD1xB8ZxM' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Theory question crime rest hear teacher.","maxScore":69,"minScore":5,"description":"Sport suffer majority only behind minute. Box production board guy like.","estimatedTime":"6 weeks","previewFileId":"c8bb11bc-c05e-49e4-a57e-d0e6ce95ffc4","createdByUserId":"a96b322d-aa8d-4472-8063-c630b224c466"}'

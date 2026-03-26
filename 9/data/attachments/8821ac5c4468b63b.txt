@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjM0OjQxLjI3ODcxMiIsInVzZXJfaWQiOiI5ZDRkYjU4Yy02ZGFkLTQ1MTgtOWFhYS0xYjFkN2ZlNDgzYTUifQ.hydU6kQF5rmzx0mhS4CzrNHfAR9JzmI3fV0t4VwtWE4' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Try billion discuss military current tough house.","courseId":"a00977f9-c965-482e-8191-b128ca3a6ad2","maxScore":60,"minScore":19,"orderIndex":16,"description":"Own she step analysis. Country base mention should four every fact. Call cover think future figure benefit break myself. Collection writer green agreement.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8930bb94-f801-4113-b692-b9a9a946af62' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjM0OjQxLjI3ODcxMiIsInVzZXJfaWQiOiI5ZDRkYjU4Yy02ZGFkLTQ1MTgtOWFhYS0xYjFkN2ZlNDgzYTUifQ.hydU6kQF5rmzx0mhS4CzrNHfAR9JzmI3fV0t4VwtWE4' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put truth plant exist sing world current.","maxScore":68,"minScore":28,"orderIndex":36,"description":"Source challenge be describe usually. Democrat letter value seat. Dream alone PM wall material whom song.\nSeat his million weight realize away support. Commercial head five big.","estimatedTime":"7 weeks"}'
