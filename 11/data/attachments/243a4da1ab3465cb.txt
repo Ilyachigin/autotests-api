@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjUxOjI0LjY5NjExNSIsInVzZXJfaWQiOiJjZWI4MGZhZS1hYTc1LTRlNzEtYmVlYi02MGEwMDJkZjBhZjMifQ.lw7XdmdUNO2OPeGyh3B38_r0v9peUP5OgEze6uEzR0w' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality herself could speech production this.","maxScore":92,"minScore":1,"description":"Site least court indeed these money. Research center later respond.\nDesign once pressure. Teach drop itself writer indeed ability. Ground beat hot another modern their whether.","estimatedTime":"9 weeks","previewFileId":"c9a6c0e1-e62a-4eee-bed8-acfd7dad11ff","createdByUserId":"ceb80fae-aa75-4e71-beeb-60a002df0af3"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjUxOjI1LjkxODc0NSIsInVzZXJfaWQiOiI3OTczODJiMS0yZjIwLTQwNTgtOGQwZS0xZTEwODliNTkxMzIifQ.7cU0odAnZL9m4CBlXc-R-qT2iOU3ExMN41-xVsRxQsg' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Base commercial in better if.","maxScore":79,"minScore":17,"description":"Deep a central wish term. Current discussion discussion usually onto eat list.\nSo goal way budget without right.","estimatedTime":"5 weeks","previewFileId":"62b29d4a-2f92-46db-b3f7-8783cb5840a0","createdByUserId":"797382b1-2f20-4058-8d0e-1e1089b59132"}'

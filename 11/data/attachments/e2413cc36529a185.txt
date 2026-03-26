@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjUxOjI0LjEwMjY0MyIsInVzZXJfaWQiOiJmZTg0ZjRkMi1kYzYzLTQ3MTgtOTIyOC1mZTc0MWU5OTAxMDkifQ.q2nvojWH82QiDG-y3JwoII-HU5WgQjTi7geSMKUd3fw' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Government eye direction including.","maxScore":70,"minScore":15,"description":"Machine arm civil movement performance level. Scene memory political detail.\nSuch physical true always sense plan hot. Know necessary section from million through. Each least stock media.","estimatedTime":"1 weeks","previewFileId":"076f8b11-4d80-4c65-8d64-eb3ebeac9212","createdByUserId":"fe84f4d2-dc63-4718-9228-fe741e990109"}'

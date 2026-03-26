@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjUxOjI0LjY5NjExNSIsInVzZXJfaWQiOiJjZWI4MGZhZS1hYTc1LTRlNzEtYmVlYi02MGEwMDJkZjBhZjMifQ.lw7XdmdUNO2OPeGyh3B38_r0v9peUP5OgEze6uEzR0w' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Down feeling federal cause kitchen hear before.","courseId":"7c82ad63-a3f0-4514-a49e-86c046785d23","maxScore":80,"minScore":25,"orderIndex":46,"description":"Place will example focus city movie.\nComputer must wait difficult stand to. Event high once add simple management. Value next true.\nCentral agreement also benefit its.","estimatedTime":"3 weeks"}'

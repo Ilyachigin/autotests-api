@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f0fc858f-e563-4c41-baf3-5e378c614654' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjUxOjI1LjMzMDY4NiIsInVzZXJfaWQiOiJlMjAzMTRlMS0xYzVlLTRhNjktYTZhNS01N2VjMWMwNDQ1ODkifQ.bZunNdZBwVz0HrTXFvsQy5xHF-NPIaR7-3-AcV5E5zY' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious end off participant.","maxScore":78,"minScore":21,"orderIndex":68,"description":"Set machine heart happen finish response test available. Letter base rate role herself require their. Social involve nothing maybe.\nHouse sea back although.","estimatedTime":"8 weeks"}'

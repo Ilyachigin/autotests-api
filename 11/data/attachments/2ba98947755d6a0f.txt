@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjUxOjIzLjUyMTEwNyIsInVzZXJfaWQiOiIzMTkwOGNiNC01NDdiLTQ2MTctOGI2Zi1iNzUwOTcxZDdjZmQifQ.G_UedQ3vtXe5__GB4Lit8rZUxM9ZigNLeM1oDZOJXcE' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant commercial part remain risk.","maxScore":51,"minScore":20,"description":"Read buy participant forget capital team down. Nearly since serve four whether life. Card realize kid area small.\nThing simply off than. International Congress quite skill.","estimatedTime":"8 weeks","previewFileId":"eecc2d1c-0994-452b-8020-780e0442df1d","createdByUserId":"31908cb4-547b-4617-8b6f-b750971d7cfd"}'

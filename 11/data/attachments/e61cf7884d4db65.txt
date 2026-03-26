@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjUxOjIxLjcyODU5MCIsInVzZXJfaWQiOiIyOGYzNjg0MC05ZWQxLTQ5MzUtOTg1Ny03Mzk4NWJiZDVmYmIifQ.CIG0v3sXc28imLTLlSrBdo1EVaUZTDXU4lysCz2S18w' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight where almost town decade late serve tax.","maxScore":65,"minScore":26,"description":"Course try near campaign available. Put audience ask rule Republican employee measure grow. Staff and gun.\nRoad show want store election money. Somebody all eye air indicate.","estimatedTime":"8 weeks","previewFileId":"a4f2ff4d-c344-4448-a5f9-90b22d668dee","createdByUserId":"28f36840-9ed1-4935-9857-73985bbd5fbb"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/22591a2c-21e9-4a4c-898e-b72745db2801' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDExOjUxOjIxLjcyODU5MCIsInVzZXJfaWQiOiIyOGYzNjg0MC05ZWQxLTQ5MzUtOTg1Ny03Mzk4NWJiZDVmYmIifQ.CIG0v3sXc28imLTLlSrBdo1EVaUZTDXU4lysCz2S18w' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine always his clearly.","maxScore":86,"minScore":5,"description":"Increase dream act near its bed off. Standard card employee run agreement.\nCover reach fund let pass. Help garden anything president north become. Recognize save a history environment spend.","estimatedTime":"10 weeks"}'
