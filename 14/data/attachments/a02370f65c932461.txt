@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjIxLjQ5NDYxOCIsInVzZXJfaWQiOiJjMDk4YjA3YS1iMzBiLTQ5NDQtYjEyZC05ZjAzZmU4NDQ3ZmYifQ.NYIFEbV2xEQkzgyjRJRa9952X48l2vNElx-uGU9whIc' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual mission indeed it heavy build.","maxScore":57,"minScore":28,"description":"Let current idea field feel. East the industry scene respond decide arm.\nMyself single serious student hospital. You floor miss contain well clear. You join her newspaper.","estimatedTime":"9 weeks","previewFileId":"d0a38a7d-4247-43ad-bfcf-864fb4580f3f","createdByUserId":"c098b07a-b30b-4944-b12d-9f03fe8447ff"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjE5LjgxODk3NyIsInVzZXJfaWQiOiIyYzIxNDQyNC04N2I0LTQ4ZGQtYTU5ZS03YTcyYzYwNmYyZmUifQ.kzwW7ILAs2AeJxuZA663MwXf5wTofjHI-9XUutpjmQQ' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Option ready over third.","maxScore":64,"minScore":29,"description":"Great matter article process. Threat street win during improve.\nHeavy within grow through. Represent general claim.","estimatedTime":"5 weeks","previewFileId":"0f1dee1a-4584-4c0f-b96d-d13148765932","createdByUserId":"2c214424-87b4-48dd-a59e-7a72c606f2fe"}'

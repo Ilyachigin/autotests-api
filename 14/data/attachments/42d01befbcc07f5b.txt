@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjIwLjM3OTAwNSIsInVzZXJfaWQiOiJlZDhlYmQwMy0yMWQ0LTRiYTktOTFlOC00N2U4NGQxYTBkNzMifQ.B0x8kffr1M8q-2xp62yrOzlVSCJrvcTjTa7-W-vkvmk' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cold least know authority.","courseId":"fdb805ca-0572-42ea-a465-8afac2c8e770","maxScore":58,"minScore":15,"orderIndex":48,"description":"Real would structure involve again scene difficult sort. Ok force area now security painting beat.","estimatedTime":"4 weeks"}'

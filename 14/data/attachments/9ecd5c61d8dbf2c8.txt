@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjIyLjEwNzAxMSIsInVzZXJfaWQiOiIzNTQ3MDhkNS00ZGFkLTRmZGMtYTg2NS0xYTkzYTFmM2U3NGMifQ.agsPgquYYhiSz4Dw1i9hPnlcR36NDHmKxTh1DrwBXIA' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Easy anything prove second particular education difference.","maxScore":51,"minScore":21,"description":"Science affect make with often true. Level my think money weight miss sort.\nOn artist science next partner arm. Yourself strong finally simple. Toward consider consider religious.","estimatedTime":"1 weeks","previewFileId":"662ea357-adb4-44d0-b80f-aed50780de81","createdByUserId":"354708d5-4dad-4fdc-a865-1a93a1f3e74c"}'

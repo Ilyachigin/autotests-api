@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjIwLjkzODM1NCIsInVzZXJfaWQiOiJlNjA1MzY2Zi0yODkyLTQwMjgtYWVlNy1jMDM0MDE2N2JiZTMifQ.gnPIj7ATaANpgP4LMIl6SvUCl6wY1cWe6X0AD5QPJ5g' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Third develop leave common lose.","maxScore":54,"minScore":3,"description":"Involve mention seat have whose.\nPainting action past company sea stand. Travel movement response size happy finish another. I possible south least billion southern others.","estimatedTime":"1 weeks","previewFileId":"31927575-8d08-45a5-8a8c-e041be62fa06","createdByUserId":"e605366f-2892-4028-aee7-c0340167bbe3"}'

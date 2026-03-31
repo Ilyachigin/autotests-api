@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjE5LjI1OTgwMyIsInVzZXJfaWQiOiJlYjczOTQwYS1hY2YxLTQ2YTMtYTEzNC04Y2UwOGQyYmI4ZDAifQ.aNh4Cb26fmh40FeekhMPf4bpptNJn-wbGQgXnNVo-g0' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Audience alone former significant return.","maxScore":81,"minScore":2,"description":"Instead seven reach fear system inside. Through design everyone local lay. Teach book region hotel value avoid talk.","estimatedTime":"9 weeks","previewFileId":"663276f2-64f7-459f-974a-fce9442549f7","createdByUserId":"eb73940a-acf1-46a3-a134-8ce08d2bb8d0"}'

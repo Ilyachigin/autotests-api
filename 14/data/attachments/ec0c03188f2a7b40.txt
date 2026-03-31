@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjIyLjY2MzY4MSIsInVzZXJfaWQiOiI3NzIzYTMzNC1hNzFhLTQyZTUtOTFjMC00NWUyZGQ0ZWFkODkifQ.QKMWhKIZiCIzzf4sENENZBEYeBUmeKkHaPXYFOx0dvw' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throw land name claim.","courseId":"14ba96a9-012f-4720-a710-d6934d6ba6fd","maxScore":97,"minScore":7,"orderIndex":4,"description":"Institution any process meeting success decide mind. Pay road onto admit.\nNot decide others between.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fb84d1cd-f2cf-4312-aea9-8686f95139c5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjE4LjQxMDk1NiIsInVzZXJfaWQiOiI2ODM1MmEwOC0yOTBkLTQ0YzgtYjE3ZS1iYWUyYjFmYjZhMzUifQ.NeNGZ-we5Pg2YuPBDM0H6jIkU_ULQMDGrTvHDtzMgQ4' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Available official Mr increase customer instead like.","maxScore":61,"minScore":27,"description":"Your here whose politics sign poor. Gas dinner watch itself positive ask that assume.\nTown character near forget visit. Resource team body increase.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjIwLjM3OTAwNSIsInVzZXJfaWQiOiJlZDhlYmQwMy0yMWQ0LTRiYTktOTFlOC00N2U4NGQxYTBkNzMifQ.B0x8kffr1M8q-2xp62yrOzlVSCJrvcTjTa7-W-vkvmk' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wall receive lay often glass account gun.","maxScore":54,"minScore":19,"description":"Human community in mention themselves second PM. Effect positive culture whose vote yeah hot them. Star per describe next.","estimatedTime":"7 weeks","previewFileId":"8c66425b-b39a-4cf4-9fe6-cc34f3b6cb56","createdByUserId":"ed8ebd03-21d4-4ba9-91e8-47e84d1a0d73"}'

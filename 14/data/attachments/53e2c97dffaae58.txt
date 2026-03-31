@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjE4LjQxMDk1NiIsInVzZXJfaWQiOiI2ODM1MmEwOC0yOTBkLTQ0YzgtYjE3ZS1iYWUyYjFmYjZhMzUifQ.NeNGZ-we5Pg2YuPBDM0H6jIkU_ULQMDGrTvHDtzMgQ4' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell Republican bring specific who keep.","maxScore":57,"minScore":27,"description":"Area any guess enjoy. New I agree less want. Mind population nature several.\nAct trouble speech security stop. Marriage age Republican majority mind career.","estimatedTime":"5 weeks","previewFileId":"3cbc000f-ec1a-4d83-ae90-79e17a1220b6","createdByUserId":"68352a08-290d-44c8-b17e-bae2b1fb6a35"}'

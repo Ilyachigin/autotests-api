@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDEzOjE3OjIyLjEwNzAxMSIsInVzZXJfaWQiOiIzNTQ3MDhkNS00ZGFkLTRmZGMtYTg2NS0xYTkzYTFmM2U3NGMifQ.agsPgquYYhiSz4Dw1i9hPnlcR36NDHmKxTh1DrwBXIA' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Though my boy two.","courseId":"08f0b64f-fa6e-4018-93af-fedcb77bd1b0","maxScore":92,"minScore":2,"orderIndex":61,"description":"Front remember course threat church.\nRest far bed agreement week. Mouth answer star agreement. Recently position draw.\nSea side bill occur usually firm form. Book fast level show.","estimatedTime":"9 weeks"}'
