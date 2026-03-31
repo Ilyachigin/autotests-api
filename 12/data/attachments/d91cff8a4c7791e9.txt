@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQzLjU3Mzg1MSIsInVzZXJfaWQiOiIwMTExOTU4Ni0zNjc5LTRmZDctODA5MS1iYjQyNGY4YzQyZDgifQ.N3yT0yheU_3txPIRUTYbE5vjedsP3udNMLW6yCwg4Jw' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lose live wait far everything design research.","maxScore":95,"minScore":23,"description":"Material perhaps participant. Billion clear music head. Message a suffer opportunity woman.\nCharge produce his very some. Available note ahead high above majority imagine education.","estimatedTime":"6 weeks","previewFileId":"b9a9a6d0-d9ae-4a0f-9b4b-00915be8e28f","createdByUserId":"01119586-3679-4fd7-8091-bb424f8c42d8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQ1LjA0Njk1OCIsInVzZXJfaWQiOiJkYzE3MDNhZi0wY2Q1LTQyMzMtOGUwNi01M2I2YzczYjY0ZDkifQ.KgB3PNsKemq6bbz0Pzq_Qw8XiOHeIjmi18PLE48YPns' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sometimes soldier system view.","maxScore":80,"minScore":8,"description":"Thank detail describe nature total. Agency evening garden control mother assume. Never walk magazine mission.","estimatedTime":"7 weeks","previewFileId":"de23ff62-02b8-458a-8df3-bb2fe8b66d02","createdByUserId":"dc1703af-0cd5-4233-8e06-53b6c73b64d9"}'

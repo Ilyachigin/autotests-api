@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQ4LjAyMTM5MSIsInVzZXJfaWQiOiI0N2NkZTc5ZC02NjBmLTQyNGUtYTVkMC1iN2NiYTQ2ZDA1MTMifQ.IBW-Yqazd5rf5F8apKe9TQuTt-3TmHHRBAxz8481CLk' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strong generation bit down research.","maxScore":57,"minScore":8,"description":"Try place grow TV when. Police friend member call thus this.\nLarge laugh view. Teacher political author senior present officer vote career.","estimatedTime":"7 weeks","previewFileId":"264f5a0c-cedc-4a0a-9c80-7a95615814f7","createdByUserId":"47cde79d-660f-424e-a5d0-b7cba46d0513"}'

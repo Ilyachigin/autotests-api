@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQ2LjIxMzQyMiIsInVzZXJfaWQiOiIyOGRjYWE5MC05ZjYyLTQwNzktYTM2MS1kNzc0MzkwMWEyY2IifQ._VsDZdWqLeZWXL_ohQwmhiGwu5LZ3yfcZGtHwni0vpE' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"When close positive find add rock executive.","maxScore":74,"minScore":28,"description":"Line again security nearly. Chair wind growth five better imagine reason find. Strong call protect deep fire really manage.","estimatedTime":"3 weeks","previewFileId":"906f706c-acd6-4777-bfb3-b5f4544c0c44","createdByUserId":"28dcaa90-9f62-4079-a361-d7743901a2cb"}'

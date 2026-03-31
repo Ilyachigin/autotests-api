@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/856bd0d4-4a70-4b58-9e7a-56f65498bf18
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/856bd0d4-4a70-4b58-9e7a-56f65498bf18
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:121 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:61 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 856bd0d4-4a70-4b58-9e7a-56f65498bf18
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Forget near behind site.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 5beeaf5d-f726-43f0-8539-af17443444df
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 9
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Chair music politics worker impact matter. Your piece camera than goal security. Design always tough service.
+Half he question goal.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

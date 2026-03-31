@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQ1LjYyNjg4MyIsInVzZXJfaWQiOiJmNTE0N2JjMS0wODVmLTRjZTUtOWFlZS03MTRlMTE0ZWNmODEifQ.IPCUWKPbQxvK2TVqQ_gx5oCaK-y4gsp0CSZku5RwnR0' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thus tough issue nature artist program.","courseId":"3c38833f-4485-4259-9217-8c5d986a4b14","maxScore":58,"minScore":12,"orderIndex":56,"description":"Rise old establish might. Meet car city whole.\nOwner official standard serious. Later better between. Suffer prevent window. Continue finish impact own against impact not.","estimatedTime":"2 weeks"}'

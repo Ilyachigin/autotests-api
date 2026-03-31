@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQ4LjAyMTM5MSIsInVzZXJfaWQiOiI0N2NkZTc5ZC02NjBmLTQyNGUtYTVkMC1iN2NiYTQ2ZDA1MTMifQ.IBW-Yqazd5rf5F8apKe9TQuTt-3TmHHRBAxz8481CLk' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Daughter science chair be either indicate.","courseId":"2d7e9907-cf66-4b05-b332-0659626a4b86","maxScore":77,"minScore":28,"orderIndex":84,"description":"Information question race send reason. Professional scene visit offer.\nLead difference safe collection others about. Institution father body professional why. Produce table town rock drive contain.","estimatedTime":"1 weeks"}'

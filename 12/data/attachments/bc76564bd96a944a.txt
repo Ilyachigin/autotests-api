@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQ3LjQyNzI4MCIsInVzZXJfaWQiOiJhOTU3NDFiOC02MDM3LTRlOGMtOTVkYi0xNDQ1NDc0OTM0ODkifQ.ijKbwJ1rH7KBNroFOm_QRBWSBqhQKLzkpwrpDoTCuqY' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather compare PM nothing like.","maxScore":91,"minScore":23,"description":"Recognize laugh skill sea data environment leg especially. World medical feeling significant color trouble ever.","estimatedTime":"10 weeks","previewFileId":"c4157682-c858-46e6-a2a0-a24221ae4277","createdByUserId":"a95741b8-6037-4e8c-95db-144547493489"}'

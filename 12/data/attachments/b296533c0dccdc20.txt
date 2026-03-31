@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQ1LjYyNjg4MyIsInVzZXJfaWQiOiJmNTE0N2JjMS0wODVmLTRjZTUtOWFlZS03MTRlMTE0ZWNmODEifQ.IPCUWKPbQxvK2TVqQ_gx5oCaK-y4gsp0CSZku5RwnR0' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"By support you.","maxScore":62,"minScore":21,"description":"Crime degree training camera cost. Letter us east. Each best recent social point reflect. Friend wear idea business several believe pretty.","estimatedTime":"10 weeks","previewFileId":"68a8ecfe-70e6-4337-b5e9-7d82b5b1665f","createdByUserId":"f5147bc1-085f-4ce5-9aee-714e114ecf81"}'

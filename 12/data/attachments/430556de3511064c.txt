@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/36a8c38e-3cb4-4fad-b92d-ef5f1c0f584a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQ3LjQyNzI4MCIsInVzZXJfaWQiOiJhOTU3NDFiOC02MDM3LTRlOGMtOTVkYi0xNDQ1NDc0OTM0ODkifQ.ijKbwJ1rH7KBNroFOm_QRBWSBqhQKLzkpwrpDoTCuqY' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mission front process little crime.","maxScore":93,"minScore":21,"orderIndex":87,"description":"Improve check another those speak occur certainly. Son exactly tonight less pass easy huge of. Sure contain arm feel speech bag.","estimatedTime":"4 weeks"}'

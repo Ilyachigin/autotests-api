@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQ2LjgwMTQyNSIsInVzZXJfaWQiOiI5NjFkYzUyYi01NmE4LTQyODQtYWRmOC04NDViN2E1ODc1ZWMifQ.rFwUy0Xf60s_b-j2I-EpXYxDRmnYavN7oTPUHKWMPEA' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professor several size foot leader bank sure sound.","maxScore":94,"minScore":11,"description":"Wind from near task moment do as.\nReason full well local sure. Hundred star learn size sign.\nFour cause college. Foreign but TV to. Material around necessary spring life quickly child note.","estimatedTime":"5 weeks","previewFileId":"b81d3258-348b-4d98-b3b8-74725b0c2f06","createdByUserId":"961dc52b-56a8-4284-adf8-845b7a5875ec"}'

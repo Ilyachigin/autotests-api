@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Sometimes soldier system view.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Thank detail describe nature total. Agency evening garden control mother assume. Never walk magazine mission.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file" equals to de23ff62-02b8-458a-8df3-bb2fe8b66d02
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user" equals to dc1703af-0cd5-4233-8e06-53b6c73b64d9
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

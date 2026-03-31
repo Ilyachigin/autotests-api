@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4c7cfc37-9209-49db-9f1b-a61838547dbd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjEyOjQzLjU3Mzg1MSIsInVzZXJfaWQiOiIwMTExOTU4Ni0zNjc5LTRmZDctODA5MS1iYjQyNGY4YzQyZDgifQ.N3yT0yheU_3txPIRUTYbE5vjedsP3udNMLW6yCwg4Jw' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign kid do ever.","maxScore":75,"minScore":23,"description":"Site us appear blue. Four instead wife two task. Why with because watch. My fight establish important.\nMonth expect will man. Never medical else ready property.","estimatedTime":"1 weeks"}'
