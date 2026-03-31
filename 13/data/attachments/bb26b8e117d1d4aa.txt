@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjA1LjIxNTE4MyIsInVzZXJfaWQiOiIyYjdjMjVmZC1mZjZmLTQ0ZmYtODA5OS0wNDE4MmFlODQ2ODgifQ.MUYcXMeyiz15IAhMKaK1PgHuMxhFIW1rQO66ut5qq4Q' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Young civil drop direction detail right.","maxScore":100,"minScore":21,"description":"Total design community commercial player the. Occur so join attention baby draw. Billion small opportunity street star.\nDoctor rise realize attorney. Song major close.","estimatedTime":"3 weeks","previewFileId":"16cc44c5-d704-4fda-8851-21e6db73b524","createdByUserId":"2b7c25fd-ff6f-44ff-8099-04182ae84688"}'

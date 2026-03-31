@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjA0LjYzMDM3MCIsInVzZXJfaWQiOiI5N2UxZjQ3Mi03OGEyLTRkMzktYTc4OC1lODA3ZWFhN2I5NTMifQ.ifKVmg4RYffq4KMCPr69Bar4NwGyuZpbTUsExRcAZlk' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least never individual once.","maxScore":93,"minScore":6,"description":"You discussion red seem environmental sing. Money partner professional move. Employee concern name floor. Same probably open under political.","estimatedTime":"5 weeks","previewFileId":"943d82e3-f237-40a1-ae65-3abf5510765f","createdByUserId":"97e1f472-78a2-4d39-a788-e807eaa7b953"}'

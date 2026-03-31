@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjAzLjQ1NTEyNSIsInVzZXJfaWQiOiIyMWNjYmM5NS05NzNlLTQ1MmEtODg1OS05M2EyMzJkY2EyNTMifQ.qdgNnK2iq0RbuRdqL7zUGO2CUrpuqtkeia_h65_EMbM' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before offer step house car cold pick.","maxScore":51,"minScore":13,"description":"Certainly image rest.\nParticular second we at water organization economic nor.","estimatedTime":"2 weeks","previewFileId":"bb44a92d-debd-4b15-be22-a50e3abf2593","createdByUserId":"21ccbc95-973e-452a-8859-93a232dca253"}'

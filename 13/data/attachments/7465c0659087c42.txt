@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjA2LjQ0NDc0MSIsInVzZXJfaWQiOiJlMjhhMmMzYy0yMzk3LTRiZWYtYTI4Ny1kOWUzZmExM2NkMTMifQ.tSeDYFSBYNKRFocli62PF73dh4MaG2-Nv5jiR_FAT60' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area data likely defense.","maxScore":98,"minScore":23,"description":"Role sea choice. Television little note tough.\nAttack listen identify different task here. Control relationship run popular speak behind simply. Stop expect provide back save deal.","estimatedTime":"5 weeks","previewFileId":"e96a7c03-f21d-4b9d-a62d-e8cea6c025fe","createdByUserId":"e28a2c3c-2397-4bef-a287-d9e3fa13cd13"}'

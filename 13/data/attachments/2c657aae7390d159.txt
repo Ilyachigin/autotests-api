@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjAxLjk1NTkxOSIsInVzZXJfaWQiOiI4YzgxYjE5MC0zNmU0LTQ4NDgtYTRhOC04ZmM2M2EwZmZmMzAifQ.HIgx0OiVOFKpwFPpZXT7mWYEKODED6bORiy37Z1ZMHg' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International bad life them blood own.","maxScore":60,"minScore":3,"description":"Culture company hit realize everyone. Capital grow writer worry eye.","estimatedTime":"9 weeks","previewFileId":"c55ffb3b-d8ee-4e2d-b3eb-dc64c1dacd68","createdByUserId":"8c81b190-36e4-4848-a4a8-8fc63a0fff30"}'

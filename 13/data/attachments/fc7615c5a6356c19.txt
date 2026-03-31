@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ab5a8d20-b6e0-4ffb-9f1f-9b77ef20dfd0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjAxLjk1NTkxOSIsInVzZXJfaWQiOiI4YzgxYjE5MC0zNmU0LTQ4NDgtYTRhOC04ZmM2M2EwZmZmMzAifQ.HIgx0OiVOFKpwFPpZXT7mWYEKODED6bORiy37Z1ZMHg' \
+  -H 'content-length: 224' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cut action peace risk training east.","maxScore":59,"minScore":23,"description":"Director sense produce necessary support movement. Television pattern detail still.\nRed late method in.","estimatedTime":"10 weeks"}'

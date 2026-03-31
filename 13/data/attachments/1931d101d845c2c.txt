@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjAyLjg2OTYyNiIsInVzZXJfaWQiOiJlY2QyNmVkYS1lMDlmLTRkMDMtODQ0OS0zNTEwZTlmNmVmNWQifQ.MXc0kQCOBJW5UcY_tWtJ_GDsHA5vikacUbFIajZfu60' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choose save several assume debate probably share young.","maxScore":68,"minScore":24,"description":"Technology should almost chair thus work. How program alone though law. Think Republican food again choice. Light name today understand.","estimatedTime":"8 weeks","previewFileId":"2d9fc74d-300f-4b22-8285-fa6ff3aa390b","createdByUserId":"ecd26eda-e09f-4d03-8449-3510e9f6ef5d"}'

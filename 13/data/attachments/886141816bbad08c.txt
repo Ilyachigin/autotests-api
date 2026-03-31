@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjA1Ljg2MTAzOSIsInVzZXJfaWQiOiJjY2VlNzFlZC04ZTU1LTRhYTAtOGZhYi0zMmUzNDdhYzk0NzEifQ.IY5FlrhE1SylsYu4q1yNTdy1DzukQBzNU_HvOX0Wkiw' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arrive truth least area night hold form.","maxScore":76,"minScore":18,"description":"Per outside test six perhaps. Character book serve carry rule so. Century suggest to but product window attorney.\nBoard war south out.","estimatedTime":"4 weeks","previewFileId":"59f30ba0-d817-4e51-a608-e20b5a149d8f","createdByUserId":"ccee71ed-8e55-4aa0-8fab-32e347ac9471"}'

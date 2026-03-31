@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjA2LjQ0NDc0MSIsInVzZXJfaWQiOiJlMjhhMmMzYy0yMzk3LTRiZWYtYTI4Ny1kOWUzZmExM2NkMTMifQ.tSeDYFSBYNKRFocli62PF73dh4MaG2-Nv5jiR_FAT60' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Need Mrs true small serve century.","courseId":"fe211f68-1f58-4c55-abc4-bde78779990a","maxScore":66,"minScore":11,"orderIndex":77,"description":"Source student at us lay marriage establish. Level opportunity lawyer effect fight boy. Seem into military picture pretty.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMxVDExOjIyOjA0LjA0MTM4NyIsInVzZXJfaWQiOiJjMmQyZTcyMS02OTg0LTQ3MTUtOGMzMC02YWZkYTNiOWEwNWQifQ.Elmo53FpgQa-wbRNxRVKQeR10yUCz36E-UYK4vbANgQ' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Member kid continue.","maxScore":68,"minScore":29,"description":"Cause scene agreement media from. Question first sign skin opportunity election whatever suddenly. Organization check reach Mrs star provide. Land various fight degree evening.","estimatedTime":"10 weeks","previewFileId":"2f92efdb-2432-4e86-b9e7-0ccfbb4e288c","createdByUserId":"c2d2e721-6984-4715-8c30-6afda3b9a05d"}'
